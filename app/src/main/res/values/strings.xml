@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">ExpensiveApp</string>
+
+    <string name="title_home">Home</string>
+    <string name="title_income">Income</string>
+    <string name="title_expense">Expense</string>
+    <string name="title_report_date">Report by date</string>
+    <string name="title_category">Category</string>
+    <string name="title_chart">Chart</string>
+
+    <string-array name="income_arrays">
+        <item>Salary</item>
+        <item>Loan</item>
+        <item>Sales</item>
+        <item>Bonus</item>
+        <item>Investment Income</item>
+        <item>Others</item>
+    </string-array>
+
+    <string-array name="expense_arrays">
+        <item>Drinks</item>
+        <item>Clothing</item>
+        <item>Food</item>
+        <item>Health</item>
+        <item>Education</item>
+        <item>Restaurant</item>
+        <item>Transport</item>
+        <item>Fun</item>
+        <item>Fuel</item>
+        <item>Others</item>
+    </string-array>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

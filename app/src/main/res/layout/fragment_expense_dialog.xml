@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragment.ExpenseDialogFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:id="@+id/etexpenseamount"
+            android:hint="expense"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <androidx.appcompat.widget.AppCompatSpinner
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/expese_spinner"
+        android:prompt="@string/title_category"
+        android:backgroundTint="@color/colorPrimary"
+        android:entries="@array/expense_arrays"/>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+        <com.google.android.material.textfield.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/etexpensenote"
+            android:hint="Description"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.button.MaterialButton
+        android:id="@+id/expnseSave"
+        android:layout_marginTop="30dp"
+        android:layout_width="90dp"
+        android:layout_height="70dp"
+        android:layout_gravity="center"
+        android:backgroundTint="@android:color/holo_blue_dark"
+        android:text="Save"
+        />
+    </LinearLayout>
+
+
+</FrameLayout>
